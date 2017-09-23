@@ -1,0 +1,128 @@
+% Statuts de Woods Cloud
+
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+
+\documentclass[10pt, a4paper]{article}
+\usepackage[french]{babel}
+\usepackage{fontspec} 
+\usepackage{enumitem}
+
+% DOCUMENT LAYOUT
+\usepackage{geometry} 
+\geometry{a4paper, textwidth=5.5in, textheight=8.5in, marginparsep=7pt, marginparwidth=.6in}
+\setlength\parindent{0in}
+
+% FONTS
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{xunicode}
+\usepackage{xltxtra}
+\defaultfontfeatures{Mapping=tex-text}
+\setromanfont [Ligatures={Common}, Numbers={OldStyle}]{Linux Libertine O}
+\setmonofont[Scale=0.9]{Anonymous Pro}
+
+% ---- CUSTOM COMMANDS
+\chardef\&="E050
+\newcommand{\html}[1]{\href{#1}{\scriptsize\textsc{[html]}}}
+\newcommand{\pdf}[1]{\href{#1}{\scriptsize\textsc{[pdf]}}}
+\newcommand{\doi}[1]{\href{#1}{\scriptsize\textsc{[doi]}}}
+% ---- MARGIN YEARS
+\usepackage{marginnote}
+\newcommand{\amper{}}{\chardef\amper="E0BD }
+\newcommand{\years}[1]{\marginnote{\scriptsize #1}}
+\renewcommand*{\raggedleftmarginnote}{}
+\setlength{\marginparsep}{7pt}
+\reversemarginpar
+
+% HEADINGS
+\usepackage{sectsty} 
+\usepackage[normalem]{ulem} 
+\sectionfont{\mdseries\upshape\Large}
+\subsectionfont{\mdseries\scshape\normalsize} 
+\subsubsectionfont{\mdseries\upshape\large} 
+
+% PDF SETUP
+\usepackage[bookmarks, colorlinks, breaklinks, 
+	pdftitle={Statuts de Woods Cloud},
+	pdfauthor={Woods Cloud}
+]{hyperref}  
+\hypersetup{linkcolor=blue,citecolor=blue,filecolor=black,urlcolor=MidnightBlue} 
+
+% DOCUMENT
+\begin{document}
+
+{\LARGE Statuts de Woods Cloud}\\[1cm]
+
+\section*{Dénomination}
+L'entité prend pour nom Woods Cloud.
+
+\section*{Forme juridique}
+
+\subsection*{I. Absence de personnalité juridique}
+
+L'entité n'est pas dotée de la personnalité juridique.
+
+\subsection*{II. Acquisition de la personnalité juridique}
+
+La décision de doter le projet d'une personnalité juridique peut être prise par les participants de l'entité à l'unanimité.\\
+
+Cette personnalité juridique peut prendre la forme d'une société commerciale ou d'une société à finalité sociale.\\
+
+Enfin, les participants peuvent en lieu et place constituer un groupement européen d'intérêt économique (GEIE) s'ils constatent que l'activité de l'entité est auxillaire à leur activité principale.
+
+\section*{Objet}
+
+L'entité a pour objet de gérer de façon externe le département \textit{Operations} de projets, qui en raison de leur nature ou de leurs activités, ne peuvent être entièrement repris dans le champs de la culture libre.\\
+
+Cette gestion est effectuée de façon ouverte, transparente et totalement en open source.\\
+
+Elle peut aussi apporter du conseil et des prestations limitées en automatisation et infrastructure en lieu et place d'une gestion complète.
+
+\section*{De nos valeurs}
+
+Woods Cloud souscrit aux valeurs de l'open source, de l'éthique et de la transparence.
+
+\newpage{}
+
+\section*{Organes de gestion}
+
+\subsection*{I. Processus décisionnel}
+
+Les décisions sont prises au consensus par l'ensemble des membres intéressés à participer aux discussions concernant cette décision.
+
+\subsection*{II. Absence de conseil d'administration}
+
+L'entité ne dispose pas d'un conseil d'administration.
+
+\subsection*{III. Représentation et délégation}
+
+Le pouvoir de représentation de l'entité appartient à l'ensemble des membres collectivement.\\
+
+Les membres peuvent désigner un mandataire pour représenter officiellement le projet.\\
+
+Les membres peuvent également déléguer une tâche au nom de l'entité à un membre ou à une tierce personne.
+
+\section*{Finances}
+
+\subsection*{I. Absence de but lucratif}
+
+Aussi longtemps que l'entité n'est pas doté de la personnalité juridique, elle ne poursuit pas un but lucratif, mais uniquement un but d'accomplissement de son objet à titre gratuit.
+
+\subsection*{II. Frais}
+
+L'entité peut percevoir toute somme destinée à compenser les frais qu'elle expose.
+
+\section*{Durée et continuité}
+
+L'entité est est créée pour une durée illimitée.\\
+
+Lorsqu'un membre rejoint ou quitte l'entité, l'entité continue cependant à exister.
+
+\vfill
+
+\section*{}
+Le \texttt{23} septembre \texttt{2017} :\\[0.2cm]
+Sébastien Santoro\\[0.2cm]
+Yassine Hadj messaoud
+
+\end{document}
